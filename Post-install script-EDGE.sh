@@ -93,10 +93,5 @@ echo "Don't forget to install Chrome https://www.google.com/chrome/"
 
 echo
 
-#Open Spideroak Groups
-echo "Don't forget to set up Spideroak Groups"
-
-echo
-
 read -p "Press enter to close terminal"
 
