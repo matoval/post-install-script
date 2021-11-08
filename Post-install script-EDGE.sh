@@ -66,7 +66,7 @@ wget https://downloads.slack-edge.com/linux_releases/slack-4.14.0-0.1.fc21.x86_6
 sudo dnf localinstall slack-4.14.0-0.1.fc21.x86_64.rpm
 
 #install Deja Dup
-dnf install deja-dup
+sudo dnf install deja-dup
 
 echo
 
