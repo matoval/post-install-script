@@ -65,9 +65,8 @@ sudo dnf -y install wget
 wget https://downloads.slack-edge.com/linux_releases/slack-4.14.0-0.1.fc21.x86_64.rpm
 sudo dnf localinstall slack-4.14.0-0.1.fc21.x86_64.rpm
 
-#install Spideroak
-wget http://hdn.corp.redhat.com/rhel8-csb/RPMS/x86_64/SpiderOakGroups-7.5.0-1.el7.x86_64.rpm
-sudo dnf localinstall SpiderOakGroups-7.5.0-1.el7.x86_64.rpm
+#install Deja Dup
+dnf install deja-dup
 
 echo
 
